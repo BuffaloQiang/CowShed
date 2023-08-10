@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>JK_Qiang</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SunXiaoFangBlog</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: beige;
+      }
+      /* * {
+        border: 1px solid black;
+      } */
+      .flex {
+        display: flex;
+      }
+    </style>
   </head>
-  <body>
-      <p style="text-align: center">Hello, this is xiaofang Sun's website.</p>
+  <body class="flex" style="flex-direction: column">
+    <!--图片区-->
+    <div
+      class="flex"
+      style="width: auto; height: 180px; justify-content: center; flex: 2"
+    >
+      <img
+        src="./MyCard_files/IMG_0013.JPG"
+        alt="孙晓芳"
+        width="auto"
+        height="180px"
+      />
+      <img
+        src="./MyCard_files/IMG_0007.JPG"
+        alt="孙晓芳"
+        width="auto"
+        height="180px"
+      />
+      <img
+        src="./MyCard_files/cuppicture.jpg"
+        alt="孙晓芳"
+        width="auto"
+        height="180px"
+      />
+      <img
+        src="./MyCard_files/IMG_0274.jpg"
+        alt="孙晓芳"
+        width="auto"
+        height="180px"
+      />
+      <img
+        src="./MyCard_files/IMG_0031.JPG"
+        alt="孙晓芳"
+        width="auto"
+        height="180px"
+      />
+    </div>
+    <!--内容区-->
+    <div
+      class="flex"
+      style="
+        background-color: beige;
+        flex: 7;
+        width: 100%;
+        flex-direction: column-reverse;
+        font-size: xx-large;
+        font-weight: 700;
+        font-family: cursive;
+        writing-mode: vertical-lr;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div class="flex" style="margin: 3%; color: #6495ed">北方有佳人</div>
+      <div class="flex" style="margin: 30px; color: #6495ed">绝世而独立</div>
+      <div class="flex" style="margin: 30px; color: #6495ed">一顾倾人城</div>
+      <div class="flex" style="margin: 30px; color: #6495ed">再顾倾人国</div>
+      <div class="flex" style="margin: 30px; color: #6495ed">
+        宁不知倾城与倾国
+      </div>
+      <div class="flex" style="margin: 30px; color: #6495ed">佳人难再得</div>
+    </div>
+    <!--结尾区-->
+    <div
+      class="flex"
+      style="
+        flex: 1;
+        border-top: 1px solid black;
+        align-items: center;
+        flex-direction: column;
+        font-family: fangsong;
+        justify-content: flex-end;
+      "
+    >
+      <div class="flex" style="">晓芳，Hello？</div>
+      <div class="flex" style="text-align: center">联系方式：不告诉你。</div>
+    </div>
   </body>
 </html>
